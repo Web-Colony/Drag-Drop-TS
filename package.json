@@ -1,0 +1,18 @@
+{
+  "name": "drag-drop-ts",
+  "version": "1.0.0",
+  "description": "Drag Drop Example App from Understanding TypeScript Course on Udemy",
+  "main": "app.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [
+    "typescript",
+    "course"
+  ],
+  "author": "Mostafa Kamal",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
