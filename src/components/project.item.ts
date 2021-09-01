@@ -1,7 +1,7 @@
-import Template from "./template.js";
-import { Project } from "../models/project.js";
-import AutoBind from "../decorators/AutoBind.js";
-import { Draggable } from "../models/dragDrop.js";
+import Template from "./template";
+import { Project } from "../models/project";
+import AutoBind from "../decorators/AutoBind";
+import { Draggable } from "../models/dragDrop";
 
 export default class ProjectItem
   extends Template<HTMLDivElement, HTMLLIElement>
