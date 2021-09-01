@@ -1,3 +1,8 @@
+/// <reference path="./template.ts" />
+/// <reference path="../utils/validation.ts" />
+/// <reference path="../state/projectState.ts" />
+/// <reference path="../decorators/AutoBind.ts" />
+
 namespace App {
   export class ProjectFormInput extends Template<
     HTMLDivElement,

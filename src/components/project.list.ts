@@ -1,3 +1,9 @@
+/// <reference path="./template.ts" />
+/// <reference path="./project.item.ts" />
+/// <reference path="../models/project.ts" />
+/// <reference path="../models/dragDrop.ts" />
+/// <reference path="../state/projectState.ts" />
+
 namespace App {
   export class ProjectList
     extends Template<HTMLDivElement, HTMLElement>

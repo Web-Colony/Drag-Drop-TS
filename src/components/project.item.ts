@@ -1,3 +1,8 @@
+/// <reference path="./template.ts" />
+/// <reference path="../models/project.ts" />
+/// <reference path="../models/dragDrop.ts" />
+/// <reference path="../decorators/AutoBind.ts" />
+
 namespace App {
   export class ProjectItem
     extends Template<HTMLDivElement, HTMLLIElement>
