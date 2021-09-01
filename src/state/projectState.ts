@@ -49,4 +49,4 @@ class ProjectState extends State<Project> {
   }
 }
 
-export const projectState = ProjectState.getInstance();
+export default ProjectState.getInstance();

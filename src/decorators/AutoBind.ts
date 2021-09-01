@@ -1,4 +1,4 @@
-export const AutoBind = (
+const AutoBind = (
   _target: any,
   _methodName: string,
   descriptor: PropertyDescriptor
@@ -13,3 +13,5 @@ export const AutoBind = (
   };
   return adjDescriptor;
 };
+
+export default AutoBind;

@@ -1,11 +1,11 @@
-import { Template } from "./template.js";
-import { ProjectItem } from "./project.item.js";
+import Template from "./template.js";
+import ProjectItem from "./project.item.js";
+import AutoBind from "../decorators/AutoBind.js";
 import { DropTarget } from "../models/dragDrop.js";
-import { AutoBind } from "../decorators/AutoBind.js";
-import { projectState } from "../state/projectState.js";
+import projectState from "../state/projectState.js";
 import { Project, ProjectStatus } from "../models/project.js";
 
-export class ProjectList
+export default class ProjectList
   extends Template<HTMLDivElement, HTMLElement>
   implements DropTarget
 {

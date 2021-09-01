@@ -1,4 +1,7 @@
-export abstract class Template<T extends HTMLElement, U extends HTMLElement> {
+export default abstract class Template<
+  T extends HTMLElement,
+  U extends HTMLElement
+> {
   element: U;
   hostElement: T;
   templateElement: HTMLTemplateElement;

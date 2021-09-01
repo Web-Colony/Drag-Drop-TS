@@ -1,9 +1,9 @@
-import { Template } from "./template.js";
-import { AutoBind } from "../decorators/AutoBind.js";
-import { projectState } from "../state/projectState.js";
+import Template from "./template.js";
+import AutoBind from "../decorators/AutoBind.js";
+import projectState from "../state/projectState.js";
 import { Validatable, validate } from "../utils/validation.js";
 
-export class ProjectFormInput extends Template<
+export default class ProjectFormInput extends Template<
   HTMLDivElement,
   HTMLFormElement
 > {
