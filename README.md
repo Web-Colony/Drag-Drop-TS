@@ -8,7 +8,7 @@ It's a simple app for projects that can be added and dragged into two categories
 
 ## Tech Concepts
 
-OOP design - Singlton Pattern - State Listeners - Drag Events - Custom Validation 
+OOP design - Singlton Pattern - State Listeners - Drag Events - Custom Validation - [webpack](https://webpack.js.org/)
 
 TypeScript => Generics - Union / intersection Types - Decorators - Enums
 
